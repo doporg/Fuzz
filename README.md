@@ -4,6 +4,8 @@
 
 基于Beego的Fabric(v1.1 and v2.0)智能合约模糊测试
 
+[English Document](https://github.com/doporg/Fuzz/blob/master/EN_DOC.md)
+
 在此之前请确保已安装：
 
 ```

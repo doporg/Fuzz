@@ -4,8 +4,6 @@
 
 Fuzz fabric (v1.1 and v2.0) smart contracts  based on Beego.
 
-Translated by Li Peiru
-
 Before doing this, please make sure these are installed：
 
 ```
@@ -14,6 +12,14 @@ Hyperledger Fabric v2.0
 Beego
 Go-fuzz
 Go v1.12.1
+```
+
+Notes：
+
+```
+fabric v1.1 Path：$GOPATH/src/github.com/hyperledger/fabric
+fabric v2.0 Path：$GOPATH/src/github.com/hyperledger/fabric2.0
+aab Folder Path：$GOPATH/src/github.com/hyperledger/fabric2.0/integration/chaincode/
 ```
 
 If there are any bugs, I am pleased to accept your advice.

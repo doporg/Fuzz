@@ -44,7 +44,8 @@ func Clear(Version string) {
 		FuzzURL = gopath + "/src/example/server/models/fabric1.1"
 	} else {
 		FuzzURL = gopath + "/src/github.com/hyperledger/fabric2.0/integration/chaincode/aab"
-		_ = exeSysCommand("cd " + gopath + "/src/github.com/hyperledger;sudo mv fabric fabric2.0;sudo mv fabric1.1 fabric")
+		_ = exeSysCommand("cd " + gopath + "/src/github.com/hyperledger;sudo mv fabric fabric2.0")
+		_ = exeSysCommand("cd " + gopath + "/src/github.com/hyperledger;sudo mv fabric1.1 fabric")
 	}
 	_ = exeSysCommand("rm -rf result;rm -rf result.zip;" + "rm -rf " + FuzzURL + "/test-fuzz.zip")
 }

@@ -21,6 +21,7 @@ Step 1：
 ```
 cd $GOPATH
 mkdir example
+cd example
 git clone https://github.com/doporg/Fuzz.git
 ```
 

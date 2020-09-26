@@ -16,6 +16,14 @@ Go-fuzz
 Go v1.12.1
 ```
 
+附注：
+
+```
+fabric v1.1路径：$GOPATH/src/github.com/hyperledger/fabric
+fabric v2.0路径：$GOPATH/src/github.com/hyperledger/fabric2.0
+aab文件夹路径：$GOPATH/src/github.com/hyperledger/fabric2.0/integration/chaincode/
+```
+
 如有Bug，欢迎提出
 
 Step 1：
